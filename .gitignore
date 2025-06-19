@@ -1,0 +1,53 @@
+# === Python / Django ===
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.migrations/
+*.env
+
+# Django secrets
+fundoo/settings.pyc
+fundoo/__pycache__/
+fundoo/migrations/
+
+# === MySQL ===
+
+*.pid
+*.err
+*.sock
+*.db
+
+# === Node / Frontend (if applicable) ===
+node_modules/
+dist/
+build/
+
+# === Docker ===
+*.tar
+*.bak
+docker-compose.override.yml
+.env
+.dockerignore
+
+# === Logs ===
+*.log
+logs/
+*.out
+
+# === System ===
+.DS_Store
+Thumbs.db
+
+# === Editor ===
+.vscode/
+.idea/
+*.swp
+
+# === Jenkins ===
+workspace/
+jenkins_home/
