@@ -1,18 +1,5 @@
 # three-tier-chatapp-dockerised
 Containerised the Django-based three-tier chat application. The repository contains the necessary Docker files and he related configurations to start the application.
-The file structure is as follows ---->
-.
-├── backend/
-│   ├── Dockerfile
-│   ├── .env
-├── frontend/
-│   ├── Dockerfile
-│   ├── default.conf
-├── database/
-│   ├── Dockerfile
-│   ├── .env
-│   ├── init.sql
-│   └── database.cnf
 
 1. Database Setup (MySQL)
 1.1 Create .env file inside /database/
