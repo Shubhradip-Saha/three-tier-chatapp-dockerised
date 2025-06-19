@@ -21,7 +21,7 @@ RUN apt-get update && apt-get install -y \
 WORKDIR /app
 
 # Clone your project repository (optional if using Docker Compose to mount context)
-RUN git clone https://github.com/sg2263/chatapp-modified-ubuntu-22.04.git .
+RUN git https://github.com/Shubhradip-Saha/chatapp-modified-ubuntu-22.04.git .
 
 # Set up Python virtual environment
 RUN python3.8 -m venv venv
